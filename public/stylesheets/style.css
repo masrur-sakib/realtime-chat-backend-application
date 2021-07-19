@@ -1,8 +1,8 @@
 /*
  * Title: Project style sheet
  * Description: This is the main project style sheet of this project
- * Author: Sumit Saha ( Learn with Sumit )
- * Date: 23/05/2021
+ * Author: Masrur Sakib
+ * Date: 23/07/2021
  *
  */
 
@@ -12,7 +12,7 @@
   --secondary: #11141f;
   --tertiary: #1f222e;
   --dark: #0e0e12;
-  --green: #52d794;
+  --lightblue: #158cd2;
   --blue: #00b3bd;
   --light: #fff;
   --red: indianred;
@@ -33,7 +33,7 @@ body {
 
 html {
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(to right, var(--green) 0%, var(--blue) 100%);
+  background: linear-gradient(to right, var(--lightblue) 0%, var(--blue) 100%);
   font-size: 10px;
 }
 
@@ -78,7 +78,7 @@ input.error {
 input[type="submit"] {
   margin: 2rem auto;
   width: 200px;
-  background: linear-gradient(to right, var(--green), var(--blue));
+  background: linear-gradient(to right, var(--lightblue), var(--blue));
   cursor: pointer;
   font-weight: 600;
   transition: transform 0.1s ease-in-out;
@@ -113,7 +113,7 @@ input[type="submit"]:active {
   border: 3px solid;
   border-image-slice: 1;
   border-width: 3px;
-  border-image-source: linear-gradient(to left, var(--green), var(--blue));
+  border-image-source: linear-gradient(to left, var(--lightblue), var(--blue));
 }
 
 .modal .modal-title {
@@ -181,11 +181,11 @@ input[type="submit"]:active {
 }
 
 .menu-item:not(:last-child) {
-  border-right: 1px solid var(--tertiary);
+  border-right: 1px solid var(--light);
 }
 
 .menu a {
-  color: var(--primary);
+  color: var(--light);
   text-decoration: none;
 }
 
@@ -405,7 +405,7 @@ input[type="submit"]:active {
 }
 
 .you-message .message-text {
-  background: var(--green);
+  background: var(--lightblue);
   color: var(--dark);
   border: 2px solid var(--dark);
   border-radius: 14px 14px 0 14px;
@@ -602,7 +602,7 @@ input[type="submit"]:active {
 }
 
 #users-table thead tr {
-  background-color: var(--green);
+  background-color: var(--lightblue);
   color: var(--primary);
   text-align: left;
 }
@@ -645,7 +645,7 @@ input[type="submit"]:active {
 }
 
 #users-table tbody tr:last-of-type {
-  border-bottom: 2px solid var(--green);
+  border-bottom: 2px solid var(--lightblue);
 }
 
 #users-table .manage img {
@@ -688,12 +688,17 @@ input[type="submit"]:active {
 
 /* styles related to toastify */
 .toastify {
-  color: var(--secondary);
+  color: var(--dark);
   font-size: 14px !important;
-  background: -webkit-linear-gradient(
+  background: var(--light);
+  /* background: -webkit-linear-gradient(
     to right,
-    var(--green) 0%,
-    var(--blue) 100%
+    var(--primary) 0%,
+    var(--tertiary) 100%
   );
-  background: linear-gradient(to right, var(--green) 0%, var(--blue) 100%);
+  background: linear-gradient(
+    to right,
+    var(--primary) 0%,
+    var(--tertiary) 100%
+  ); */
 }
