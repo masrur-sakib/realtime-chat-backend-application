@@ -27,10 +27,12 @@ async function login(req, res, next) {
 
       if (isPasswordValid) {
         const userObject = {
+          userid: user._id,
           username: user.name,
-          mobile: user.mobile,
           email: user.email,
-          role: "user",
+          mobile: user.mobile,
+          avatar: user.avatar || null,
+          role: user.role || "user",
         };
 
         // Prepare JWT Token
@@ -48,7 +50,7 @@ async function login(req, res, next) {
         // Send data to the client side
         res.locals.loggedInUser = userObject;
 
-        res.render("inbox");
+        res.redirect("inbox");
       } else {
         throw createError("Login Failed! Please try again.");
       }
