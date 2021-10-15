@@ -1,6 +1,6 @@
 # Fullstack Realtime Chat Application:
 
-#### It’s a full-stack realtime chat application. This application is mainly developed using Node.js, Express.js, MongoDB, EJS etc. Two types of users are available in this application, admin user & general user. Only admin users can access the users page and have the authority to add new users. Users can chat also can share attachments realtime with each other through this app.
+It’s a full-stack realtime chat application. This application is mainly developed using Node.js, Express.js, MongoDB, EJS etc. Two types of users are available in this application, admin user & general user. Only admin users can access the users page and have the authority to add new users. Users can chat also can share attachments realtime with each other through this app.
 
 ## Technology Used:
 
