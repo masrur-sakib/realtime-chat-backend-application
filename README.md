@@ -4,32 +4,14 @@ It’s a full-stack realtime chat application. This application is mainly develo
 
 ## Technology Used:
 
-<ul>
-    <li>
-        <h5>Node.js</h5>
-    </li>
-    <li>
-        <h5>Express.js</h5>
-    </li>
-    <li>
-        <h5>MongoDB</h5>
-    </li>
-    <li>
-        <h5>Mongoose</h5>
-    </li>
-    <li>
-        <h5>JWT (Json Web Token)</h5>
-    </li>
-    <li>
-        <h5>Moment.js</h5>
-    </li>
-    <li>
-        <h5>Heroku</h5>
-    </li>
-    <li>
-        <h5>EJS</h5>
-    </li>
-</ul>
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT (Json Web Token)
+- Moment.js
+- Heroku
+- EJS
 
 ## Screenshots
 
