@@ -27,6 +27,3 @@ It’s a full-stack realtime chat application. This application is mainly develo
 
 ![inboxPage](https://github.com/masrur-sakib/fullstack-realtime-chat-application/blob/main/screenshots/inboxPage.png?raw=true)
 
-## Project Link
-
-<a  target="_blank" href="https://masrursakib-chat-app-lws.herokuapp.com/">Project Live Link</a>
