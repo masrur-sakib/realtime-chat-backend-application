@@ -27,3 +27,9 @@ It’s a full-stack realtime chat application. This application is mainly develo
 
 ![inboxPage](https://github.com/masrur-sakib/fullstack-realtime-chat-application/blob/main/screenshots/inboxPage.png?raw=true)
 
+### Admin Login Credential:
+
+```
+Email: sakib@gmail.com
+Password: Sakib1234@
+```
