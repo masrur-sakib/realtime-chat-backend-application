@@ -8,9 +8,9 @@ const cookieParser = require("cookie-parser");
 const moment = require("moment");
 
 // Internal Imports
-const loginRouter = require("./routers/loginRouter");
-const usersRouter = require("./routers/usersRouter");
-const inboxRouter = require("./routers/inboxRouter");
+const loginRouter = require("./routers/loginRouter.js");
+const usersRouter = require("./routers/usersRouter.js");
+const inboxRouter = require("./routers/inboxRouter.js");
 const {
   notFoundHandler,
   errorHandler,
