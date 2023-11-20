@@ -10,7 +10,7 @@ It’s a full-stack realtime chat application. This application is mainly develo
 - Mongoose
 - JWT (Json Web Token)
 - Moment.js
-- Heroku
+- Render
 - EJS
 
 ## Screenshots
